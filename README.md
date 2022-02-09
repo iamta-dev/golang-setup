@@ -6,7 +6,7 @@ https://go.dev/doc/install
 https://go.dev/doc/gopath_code
 $ export PATH=$PATH:$(go env GOPATH)/bin > .zshrc
 $ export GOPATH=$(go env GOPATH) > .zshrc
-$ source .zshenv
+$ source .zshrc
 $ echo $GOPATH
 
 remove golang
@@ -18,6 +18,11 @@ $ echo $PATH
 
 GRPC
 https://go-zero.dev/en/protoc-install.html
+
+$ brew install protobuf
+$ cd ~/go/bin && rm -rf proto*
+$ go get -u github.com/golang/protobuf/{proto,protoc-gen-go} 
+
 
 Use environment variables in go
 $ go env
