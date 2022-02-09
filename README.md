@@ -4,8 +4,10 @@
 https://go.dev/doc/install
 
 https://go.dev/doc/gopath_code
-$ export PATH=$PATH:$(go env GOPATH)/bin > .zshrc
-$ export GOPATH=$(go env GOPATH) > .zshrc
+
+$ vim .zshrc
+export PATH=$PATH:$(go env GOPATH)/bin 
+export GOPATH=$(go env GOPATH)
 $ source .zshrc
 $ echo $GOPATH
 
