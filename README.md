@@ -4,7 +4,7 @@
 https://go.dev/doc/install
 
 https://go.dev/doc/gopath_code
-$ export GOPATH=$(go env GOPATH) > .zshenv
+$ export GOPATH=$(go env GOPATH) > .zshrc
 $ source .zshenv
 $ echo $GOPATH
 
